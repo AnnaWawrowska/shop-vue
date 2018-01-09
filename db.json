@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sukienka",
+      "price": 159
+    },
+    {
+      "id": 2,
+      "name": "Spodnie",
+      "price": 99
+    },
+    {
+      "id": 3,
+      "name": "Marynarka",
+      "price": 79
+    },
+    {
+      "id": 4,
+      "name": "Spódnica",
+      "price": 200
+    }
+  ]
+}
