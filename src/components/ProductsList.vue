@@ -2,7 +2,10 @@
   <div>
     <h1>Lista Produktów :</h1>
     <ul>
-      <li v-for="product in products" >{{ product.name }} - {{ product.price }}zl</li>
+      <li v-for="product in products" >
+        {{ product.name }} - {{ product.price }}zl
+        <button v-on:click="deleteProduct(product.id)">Usuń z listy</button>
+      </li>
     </ul>
     <form>
       <input type="text" placeholder="Nazwa produktu" v-model="newProduct.name">
@@ -33,6 +36,18 @@ export default {
       .then( (response) => {
         if (response.status === 200) {
           this.products = response.data;
+        }
+      })
+      .catch( (error) => {
+        console.log(error);
+      });
+    },
+    deleteProduct (id) {
+      console.log(id);
+      axios.delete(`http://localhost:3000/products/${id}`)
+      .then( (response) => {
+        if (response.status === 200) {
+          this.getProducts();
         }
       })
       .catch( (error) => {
