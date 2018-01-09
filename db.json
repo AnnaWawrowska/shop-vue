@@ -19,6 +19,61 @@
       "id": 4,
       "name": "Spódnica",
       "price": 200
+    },
+    {
+      "name": "Marynarka",
+      "price": 229,
+      "id": 5
+    },
+    {
+      "name": "Marynarka",
+      "price": 229,
+      "id": 6
+    },
+    {
+      "name": "Marynarka",
+      "price": 229,
+      "id": 7
+    },
+    {
+      "name": "Marynarka",
+      "price": 229,
+      "id": 8
+    },
+    {
+      "name": "Marynarka",
+      "price": 229,
+      "id": 9
+    },
+    {
+      "name": "Marynarka",
+      "price": 229,
+      "id": 10
+    },
+    {
+      "name": "Marynarka",
+      "price": 229,
+      "id": 11
+    },
+    {
+      "name": "Buty",
+      "price": "599",
+      "id": 12
+    },
+    {
+      "name": "Kapelusz",
+      "price": "49",
+      "id": 13
+    },
+    {
+      "name": "Klapki",
+      "price": "19.99",
+      "id": 14
+    },
+    {
+      "name": "Rękawiczki",
+      "price": "69",
+      "id": 15
     }
   ]
 }
